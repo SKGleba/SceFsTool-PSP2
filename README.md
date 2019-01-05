@@ -19,6 +19,7 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
   - "-u": unmount all partitions in *devpath* from *endpath* OR unmount the *opt1* partition in *devpath* from *endpath*
   - "-x": extract all partitions from *devpath* to *endpath* OR extract the *opt1* partition from *devpath* to *endpath*
   - "-i": inject all partitions to *devpath* from *endpath* OR inject the *opt1* partition to *devpath* from *endpath*
+  - "-r": display some info about *devpath*
   
 - The *devpath* can be:
   - PS Vita's EMMC
