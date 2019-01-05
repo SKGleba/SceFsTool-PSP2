@@ -1,7 +1,9 @@
 # SceFsTool-PSP2
 A "manager" for PS Vita's EMMC/GameCard/MemoryCard
 
-Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARm-FS-TOOLS (https://github.com/SKGleba/YARM-V)
+Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
+
+![ref0](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/cmdscefs.png)
 
 # Current functions
 - Mount/Unmount partitions as drives
@@ -40,11 +42,18 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARm-FS-TOOLS
   - The active slb2 will be extracted from emmc.bin to sogma/slb2-1
 - "sudo ./psp2scefstool -i gc_raw.x updog mediaid"
   - The updog/mediaid-0 will be injected into gc_raw.x
+  
+# Screens
+
+![ref1](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsfmgr.png)
+![ref2](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsplain.png)
+![ref3](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsux.png)
 
 # Notes
-- It is still in beta stage.
+- It is still in beta stage, linux only for now.
 - Use with caution.
 - Sony uses TexFat so for exFat partitions you need exfat-nofuse
+- The devices are mounted with RW perms
 - Big thanks to:
   - Zecoxao
   - Team Molecule
