@@ -40,8 +40,8 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
   - The ux0 partition mounted to the ligma/ux0-0 directory will be unmounted
 - "sudo ./psp2scefstool -x emmc.bin sogma slb2 active"
   - The active slb2 will be extracted from emmc.bin to sogma/slb2-1
-- "sudo ./psp2scefstool -i gc_raw.x updog mediaid"
-  - The updog/mediaid-0 will be injected into gc_raw.x
+- "sudo ./psp2scefstool -i gc_raw.x updog"
+  - All partitions in updog/ will be injected into gc_raw.x
   
 # Screens
 
