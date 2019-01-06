@@ -9,6 +9,7 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
 - Mount/Unmount partitions as drives
 - Extract partitions from the target
 - Inject partitions into the target
+- Display target info
 
 # Usage
 
@@ -43,12 +44,15 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
   - The active slb2 will be extracted from emmc.bin to sogma/slb2-1
 - "sudo ./psp2scefstool -i gc_raw.x updog"
   - All partitions in updog/ will be injected into gc_raw.x
+- "sudo ./psp2scefstool -r /dev/sdb5 ignored"
+  - MBR, partitions, and device (if its a vita nand) info will be displayed
   
 # Screens
 
 ![ref1](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsfmgr.png)
 ![ref2](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsplain.png)
 ![ref3](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsux.png)
+![ref4](https://github.com/SKGleba/SceFsTool-PSP2/raw/master/screens/scefsnfo.png)
 
 # Notes
 - It is still in beta stage, linux only for now.
