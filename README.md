@@ -11,6 +11,11 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
 - Inject partitions into the target
 - Display target info
 
+# Installation
+
+"git clone https://github.com/SKGleba/SceFsTool-PSP2.git && cd SceFsTool-PSP2 && make"
+  - You can then copy it to your $PATH
+
 # Usage
 
 "sudo ./psp2scefstool mode devpath endpath opt1 opt2"
