@@ -69,4 +69,3 @@ Heavily based on VitaNDP (https://github.com/SKGleba/Vita-NDP) and YARM-FS-TOOLS
   - Team Molecule
   - Mathieulh
 - For any help/serious issue DM me on twitter (twitter.com/skgleba).
-- If you want to help me by donating: paypal.me/skgleba (^_^ thx).
